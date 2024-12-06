@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What We Offer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Zen+Dots">
+  <style>
+    /* Reset and Global Styles */
+    body {
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      color: #FFFFFF;
+      height: 750px; /* Set the body height to the full viewport */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Container Styling */
+    .container {
+      text-align: center;
+      margin: auto;
+      padding: 50px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-family: "Zen Dots", sans-serif;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+
+    /* Grid for Items */
+    .item-grid {
+      display: flex;
+      justify-content: center;
+      gap: 60px; /* Increased spacing between items */
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .item {
+      position: relative;
+      width: 220px;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .item span {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    /* Button Styling */
+    .button-container {
+      text-align: center;
+    }
+
+    .shop-button {
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #FFD700; /* Gold background */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .shop-button:hover {
+      background-color: #FFC107; /* Lighter gold on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>What We Offer</h1>
+    <div class="item-grid">
+      <div class="item">
+        <img src="dress.jpg" alt="Dresses">
+        <span>Dresses</span>
+      </div>
+      <div class="item">
+        <img src="corset.jpg" alt="Corsets">
+        <span>Corsets</span>
+      </div>
+      <div class="item">
+        <img src="skirt.jpg" alt="Skirts">
+        <span>Skirts</span>
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="shop-button">Shop Now!</button>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
